@@ -1,0 +1,26 @@
+{
+  "name": "@myturborepo/web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "devDependencies": {
+    "@iconify-json/bx": "^1.1.4",
+    "@myturborepo/tsconfig": "workspace:*",
+    "@myturborepo/ui": "workspace:*",
+    "@unocss/nuxt": "^0.45.26",
+    "nuxt": "3.0.0-rc.12",
+    "unplugin-vue-components": "^0.22.8"
+  },
+  "dependencies": {
+    "@myturborepo/common": "workspace:*",
+    "anu-vue": "^0.9.1"
+  }
+}
